@@ -4,76 +4,134 @@
 		<meta charset="utf-8" />
 		<title></title>
 		<style type="text/css">
-		*{
-			margin: 0;	padding: 0;
-		}
-		    body{
-		    	height: 973px;
-		    	width: 100%;
-		    	background-image:url(img/0ed7e46295c7864a0ef697fdc19d8696.jpg)  ;
-		    }
-			#ayo{
-				width: 500px;
-				height: 250px;
-				border: 1px solid black;
-				border-bottom-width:250px ;
-				border-radius: 50%;
-				position: relative;
-				animation: dongqilai 3s linear infinite;
-			}
-			@keyframes dongqilai{
-				from{transform: rotate(0);}
-				to{transform: rotate(360deg);}
-			
-			}
-			#ayo:hover{
-					animation-play-state:paused;
-				}
-			#ayo div{
-				width: 250px;
-				height: 250px;
-				border-radius: 50%;
-				position: absolute;
-				top: 125px;
-			}
-			#one{
-				background: black;
-				left: 0;
-			}
-			#two{
-				background: white;
-				right: 0;
-			}
-			#one #one-1{
-				width: 50px;
-				height: 50px;
-				background: white;
-				border-radius:50%;
-				position: absolute;
-				top: 43%;
-				left:39%
-			}
-			#two #two-1{
-				width: 50px;
-				height: 50px;
-				background: black;
-				border-radius:50%;
-				position: absolute;
-				top: 43%;
-				right:39%
-			}
+			*{
+  padding: 0;margin: 0;list-style: none;
+}
+.logo{
+	background-image: url(img/logo.png);
+	margin: auto;
+	width:216px;
+	height: 107px;
+	position: absolute;
+	top: 13px;
+	left: 670px;
+	
+}
+a{
+	color: white;
+}
+.nav ul{
+	width: 1200px;
+	height: 100%;
+    margin: 0 auto;
+	
+}
+.nav ul li{
+	width: 200px;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	float: left;
+}
+.one{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+.two{
+	position: absolute;
+	top: 50px;
+	left: 350px;
+}
+.three{
+	position: absolute;
+	top: 50px;
+	left: 500px;
+}
+.four{
+	position: absolute;
+	top: 50px;
+	left: 845px;
+}
+.five{
+	position: absolute;
+	top: 50px;
+	left: 995px;
+}
+.six{
+	position: absolute;
+	top: 50px;
+	left: 1145px;
+}
+.nav{
+	height: 139px;
+	width: 163%;
+	background: #0B262F;
+}
+.banner{
+	width: 163%;
+	height: 974px;
+	background-image: url(img/未标题-2.jpg);
+}
+#one{
+	width: 30px;
+	height: 30px;
+	background: #0B262F;
+	border-radius:50% ;
+	position: absolute;
+	top: 1050px;
+	left: 671px;
+	
+	
+}
+#two{
+	width: 30px;
+	height: 30px;
+	background: white;
+	border-radius:50% ;
+	position: absolute;
+	top: 1050px;
+	left: 745px;
+}
+#three{
+	width: 30px;
+	height: 30px;
+	background: white;
+	border-radius:50% ;
+	position: absolute;
+	top: 1050px;
+	left: 824px;
+}
 		</style>
 	</head>
 	<body>
-	    <div id="ayo">
-	    	<div id="one">
-	    		<div id="one-1"></div>
-	    	</div>
-	    	<div id="two">
-	    		<div id="two-1">
-	    			
-	    		</div>
-	    	</div>
-	    </div>
+		<header>
+			<div class="logo"></div>
+			<div class="nav">
+		     		<ul>
+		     			<li class="one"><a href="http://pal4.roogames.com/">网站首页</a></li>
+		     			<li class="two"><a href="http://pal6.roogames.com/Fans/">关于仙剑</a></li>
+		     			<li class="three"><a href="http://pal4.roogames.com/pal4/2402001dc93.html?mlid=5061">历代人物</a></li>
+		     			<li class="four">制作团队</li>
+		     			<li class="five">健身计划</li>
+		     			<li class="six">历代背景</li>
+		     		</ul>
+		     	</div>
+			</div>
+			<div class="banner"></div>
+			<div class="banlk">
+				<div id="one">
+					
+				</div>
+				<div id="two"></div>
+				<div id="three"></div>
+			</div>
+		</header>
+		<section>
+			
+		</section>
+		<footer></footer>
 	</body>
 </html>
